@@ -1,0 +1,33 @@
+{
+    "name": "rawcreative/laravel-receiptful",
+    "description": "Receiptful Integration for Laravel",
+    "keywords": [
+        "php",
+        "receiptful",
+        "laravel"
+    ],
+    "homepage": "https://github.com/rawcreative/laravel-receiptful",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": ":Tim Debo",
+            "email": "tim@rawcreativestudios.com",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "php" : ">=5.4.0",
+        "rawcreative/receiptful": "dev-master"
+    },
+    "autoload": {
+        "psr-4": {
+            "RawCreative\\Receiptful\\": "src/"
+        }
+    },
+    "minimum-stability": "dev",
+    "extra": {
+        "branch-alias": {
+            "dev-master": "0.1-dev"
+        }
+    }
+}
