@@ -20,7 +20,7 @@ class ReceiptfulServiceProvider extends ServiceProvider {
     {
         $this->app['receiptful'] = $this->app->share(function ($app){
             $config = $app['config']->get('services.receiptful.secret', array());
-            return new Api($config);
+            return Api::factory($config);
         });
     }
 
